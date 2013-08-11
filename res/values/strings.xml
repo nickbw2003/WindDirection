@@ -1,0 +1,49 @@
+<resources>
+
+    <string name="app_name">WindDirection</string>
+    <string name="menu_settings">Settings</string>
+	<string name="menu_refresh">Refreshing</string>
+    
+	<string name="drawer_open">open menu</string>
+	<string name="drawer_close">close menu</string>
+	
+	<string name="tabMain">Main</string>
+	<string name="tabSettings">Settings</string>
+	
+    <string name="currentLocationTitle">Location</string>
+    <string name="currentWindDirectionTitle">Current Wind Direction</string>
+    <string name="currentWindSpeedTitle">Current Wind Speed</string>
+    
+    <string name="webServiceBaseUrl"></string>
+    
+    <string name="windDirectionN">North</string>
+    <string name="windDirectionNNE">North-North-East</string>
+    <string name="windDirectionNE">North-East</string>
+    <string name="windDirectionENE">East-North-East</string>
+    <string name="windDirectionE">East</string>
+    <string name="windDirectionESE">East-South-East</string>
+    <string name="windDirectionSE">South-East</string>
+    <string name="windDirectionSSE">South-South-East</string>
+    <string name="windDirectionS">South</string>
+    <string name="windDirectionSSW">South-South-West</string>
+    <string name="windDirectionSW">South-West</string>
+    <string name="windDirectionWSW">West-South-West</string>
+    <string name="windDirectionW">West</string>
+    <string name="windDirectionWNW">West-North-West</string>
+    <string name="windDirectionNW">North-West</string>
+    <string name="windDirectionNNW">North-North-West</string>
+    <string name="windDirectionUndefined">Undefined</string>
+        
+    <string name="pref_location_title">Location</string>
+    <string name="pref_autolocation">Locate by GPS / Network</string>
+    <string name="pref_autolocation_sum">Try to get your current location by GPS or network</string>
+    <string name="pref_location_name">Location (City)</string>
+    <string name="pref_location_name_sum">If Locate by GPS / Network is disabled you have to set your location (City) manually</string>
+    <string name="pref_copyright_title">Copyright</string>
+    <string name="pref_copyrightmessage">Copyright by Dennis Blum</string>
+    <string name="pref_copyrightmessage_sum">WindDirection v. 1.0</string>
+    
+    <string name="noLocation">could not receive location</string>
+    <string name="noData">could not receive information</string>
+       
+</resources>

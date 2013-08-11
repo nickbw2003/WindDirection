@@ -1,0 +1,124 @@
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical" >
+         
+    <RelativeLayout
+        android:id="@+id/rlSplashScreen"
+        android:layout_width="fill_parent"
+    	android:layout_height="fill_parent"		
+		android:orientation="vertical" 
+		android:background="#33333333" >
+		               
+       	<ImageButton 
+       	    android:id="@+id/btnRefresh"
+       	    android:layout_width="80dp"
+       	    android:layout_height="80dp"       	    
+       	    android:background="@drawable/ic_action_refresh"
+       	    android:contentDescription="@string/menu_refresh"
+       	    android:layout_centerInParent="true" />
+
+       	<ProgressBar
+       	    android:id="@+id/pbRefreshing"
+       	    style="?android:attr/progressBarStyleLarge"
+       	    android:layout_width="80dp"
+       	    android:layout_height="80dp" 
+       	    android:layout_centerInParent="true"
+       	    android:visibility="invisible" />
+        
+	</RelativeLayout>
+    
+    <LinearLayout
+        android:id="@+id/llContent"
+        android:layout_width="match_parent"
+    	android:layout_height="match_parent"
+		android:paddingTop="20dp"
+		android:paddingLeft="10dp"
+		android:paddingRight="10dp"
+		android:orientation="vertical" >
+    
+	    <LinearLayout        
+	    	android:layout_width="fill_parent"
+	    	android:layout_height="wrap_content"
+	    	android:layout_marginBottom="20dp">
+	    	
+			<TextView
+		        android:id="@+id/lblCurrentLocationTitle"
+		        android:layout_weight="1"	        
+		        android:layout_width="0dp"
+		        android:layout_height="wrap_content"
+		        android:text="@string/currentLocationTitle"
+		        android:textSize="16sp"
+		        android:textStyle="bold" />
+		
+		    <TextView
+		        android:id="@+id/lblCurrentLocation"
+		        android:layout_weight="1"
+		        android:layout_width="0dp"
+		        android:layout_height="wrap_content"
+		        android:textSize="16sp" />
+		    
+		</LinearLayout>
+	    
+	    <LinearLayout        
+	    	android:layout_width="fill_parent"
+	    	android:layout_height="wrap_content" >
+		    
+		    <TextView
+		        android:id="@+id/lblCurrentWindDirectionTitle"
+		        android:layout_weight="1"
+		        android:layout_width="0dp"
+		        android:layout_height="wrap_content"
+		        android:text="@string/currentWindDirectionTitle"
+		        android:textSize="16sp"
+		        android:textStyle="bold" />
+		    
+		    <TextView
+		        android:id="@+id/lblCurrentWindDirection"
+		        android:layout_weight="1"
+		        android:layout_width="0dp"
+		        android:layout_height="wrap_content"
+		        android:textSize="16sp" />
+		                    
+	    </LinearLayout>
+	    
+	    <LinearLayout        
+	    	android:layout_width="fill_parent"
+	    	android:layout_height="wrap_content" >
+		    
+		    <TextView
+		        android:id="@+id/lblCurrentWindSpeedTitle"
+		        android:layout_weight="1"
+		        android:layout_width="0dp"
+		        android:layout_height="wrap_content"
+		        android:text="@string/currentWindSpeedTitle"
+		        android:textSize="16sp"
+		        android:textStyle="bold" />
+		    
+		    <TextView
+		        android:id="@+id/lblCurrentWindSpeed"
+		        android:layout_weight="1"
+		        android:layout_width="0dp"
+		        android:layout_height="wrap_content"
+		        android:textSize="16sp" />
+		                    
+	    </LinearLayout>
+	    
+	    <com.nickbw2003.winddirection.views.SquareLayout
+	        android:id="@+id/sqCompass"     
+	    	android:layout_width="fill_parent"
+	    	android:layout_height="wrap_content"
+	    	android:layout_gravity="center_horizontal" >
+	        
+	        <view
+				class="com.nickbw2003.winddirection.views.CompassView"
+				android:id="@+id/compassView"
+				android:layout_width="fill_parent"
+				android:layout_height="fill_parent" />
+	        
+		</com.nickbw2003.winddirection.views.SquareLayout>
+		
+    </LinearLayout>
+    
+</LinearLayout>

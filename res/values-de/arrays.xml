@@ -1,0 +1,7 @@
+<resources>
+    <string-array
+        name="drawerItems">
+        <item>Start</item>
+        <item>Einstellungen</item>
+    </string-array>
+</resources>

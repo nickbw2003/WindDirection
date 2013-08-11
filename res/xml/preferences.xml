@@ -1,0 +1,29 @@
+<?xml version="1.0" encoding="utf-8"?>
+<PreferenceScreen xmlns:android="http://schemas.android.com/apk/res/android">
+    <PreferenceCategory
+        android:title="@string/pref_location_title"
+        android:key="pref_location_settings">
+	    
+	    <CheckBoxPreference
+	        android:key="pref_autolocation"
+	        android:title="@string/pref_autolocation"
+	        android:summary="@string/pref_autolocation_sum"
+	        android:defaultValue="true" />
+	    
+	    <EditTextPreference
+	        android:key="pref_location_name"
+	        android:title="@string/pref_location_name"
+	        android:summary="@string/pref_location_name_sum"
+	        android:defaultValue="-" />	    
+    </PreferenceCategory>    
+    
+    <PreferenceCategory
+        android:title="@string/pref_copyright_title"
+        android:key="pref_copyright_settings">
+	    
+        <Preference 
+            android:key="pref_copyrightmessage"            
+            android:summary="@string/pref_copyrightmessage_sum"
+            android:title="@string/pref_copyrightmessage" />
+	</PreferenceCategory>
+</PreferenceScreen>

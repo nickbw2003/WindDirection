@@ -1,0 +1,49 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+
+    <string name="app_name">WindDirection</string>
+    <string name="menu_settings">Einstellungen</string>
+	<string name="menu_refresh">Aktualisiere</string>
+    
+	<string name="drawer_open">Menü öffnen</string>
+	<string name="drawer_close">Menü schließen</string>
+	
+	<string name="tabMain">Daten</string>
+	<string name="tabSettings">Einstellungen</string>
+	
+    <string name="currentLocationTitle">Standort</string>
+    <string name="currentWindDirectionTitle">Windrichtung</string>
+    <string name="currentWindSpeedTitle">Windgeschwindigkeit</string>
+    
+    <string name="webServiceBaseUrl"></string>
+    
+    <string name="windDirectionN">Norden</string>
+    <string name="windDirectionNNE">Nord-Nord-Ost</string>
+    <string name="windDirectionNE">Nord-Ost</string>
+    <string name="windDirectionENE">Ost-Nord-Ost</string>
+    <string name="windDirectionE">Osten</string>
+    <string name="windDirectionESE">Ost-Süd-Ost</string>
+    <string name="windDirectionSE">Süd-Ost</string>
+    <string name="windDirectionSSE">Süd-Süd-Ost</string>
+    <string name="windDirectionS">Süden</string>
+    <string name="windDirectionSSW">Süd-Süd-West</string>
+    <string name="windDirectionSW">Süd-West</string>
+    <string name="windDirectionWSW">West-Süd-West</string>
+    <string name="windDirectionW">Westen</string>
+    <string name="windDirectionWNW">West-Nord-West</string>
+    <string name="windDirectionNW">Nord-West</string>
+    <string name="windDirectionNNW">Nord-Nord-West</string>
+    <string name="windDirectionUndefined">Undefined</string>
+        
+    <string name="pref_location_title">Standort</string>
+    <string name="pref_autolocation">Standort bestimmen (GPS / Netzwerk)</string>
+    <string name="pref_autolocation_sum">Es wird versucht den Standort über GPS bzw. das Netzwerk zu bestimmen</string>
+    <string name="pref_location_name">Standort (Stadt)</string>
+    <string name="pref_location_name_sum">Wenn die Standortbestimmung über GPS / Netzwerk deaktiviert ist muss dieser hier manuell festgelegt werden</string>
+    <string name="pref_copyright_title">Copyright</string>
+    <string name="pref_copyrightmessage">Copyright by Dennis Blum</string>
+    <string name="pref_copyrightmessage_sum">WindDirection v. 1.0</string>
+    
+    <string name="noLocation">konnte Standort nicht feststellen</string>
+        
+</resources>

@@ -1,0 +1,38 @@
+<manifest xmlns:android="http://schemas.android.com/apk/res/android"
+    package="com.nickbw2003.winddirection"
+    android:versionCode="1"
+    android:versionName="1.0" >
+	
+    <uses-permission android:name="android.permission.ACCESS_FINE_LOCATION" />
+    <uses-permission android:name="android.permission.INTERNET" />
+    
+    <uses-sdk
+        android:minSdkVersion="9"
+        android:targetSdkVersion="17" />
+
+    <application
+        android:allowBackup="true"
+        android:icon="@drawable/ic_launcher"
+        android:label="@string/app_name"
+        android:theme="@style/AppTheme" >
+        <activity
+            android:name="com.nickbw2003.winddirection.MainActivity"
+            android:label="@string/app_name"
+			android:screenOrientation="portrait" >
+            <intent-filter>
+                <action android:name="android.intent.action.MAIN" />
+                <category android:name="android.intent.category.LAUNCHER" />
+            </intent-filter>
+        </activity>
+        <activity 
+            android:name="com.nickbw2003.winddirection.SettingsActivity" 
+            android:label="@string/tabSettings"
+            android:screenOrientation="portrait">
+        	<intent-filter>
+            	<action android:name="com.nickbw2003.winddirection.SettingsActivity" />
+            	<category android:name="android.intent.catagory.PREFERENCE" />
+        	</intent-filter>
+		</activity>
+    </application>
+
+</manifest>
